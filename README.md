@@ -29,7 +29,7 @@ The repository includes:
     *notebook_images* folder has images used in the notebooks such as the transformations applied for data, and the samples of signs of the vowels of the LSE.
 
 The corresponding datasets are in the following links: 
-- *vowelsLSE*          :  https://unirioja-my.sharepoint.com/:f:/g/personal/maalvear_unirioja_es/EnatqT9WnMBMg22VVjbF354B3b468vw6zwivlqpSbABjZw?e=sOzRIP
-- *vowelsLSE_new_test* :  https://unirioja-my.sharepoint.com/:f:/g/personal/maalvear_unirioja_es/Eq7UEiPeQvlOppvG_Fj1NgEBrlOwAIXGocOiVSC11JM0-w?e=HP3Qdl
+- *vowelsLSE_new_version*          :  https://unirioja-my.sharepoint.com/:f:/g/personal/maalvear_unirioja_es/IgAkTj4A2JiVSauTByOrrXI0AfFFkFulvpb3fQlPP5QMhsM?e=7d8cj6
+- *vowelsLSE_new_test*             :  https://unirioja-my.sharepoint.com/:f:/g/personal/maalvear_unirioja_es/Eq7UEiPeQvlOppvG_Fj1NgEBrlOwAIXGocOiVSC11JM0-w?e=HP3Qdl
 
 For any further information: maalvear@unirioja.es
