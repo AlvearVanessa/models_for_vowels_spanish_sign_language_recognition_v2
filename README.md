@@ -6,7 +6,7 @@ In this work, we presented a sign recognition system for the vowels of the Spani
 
 The repository includes:
 
-    _inference_images_ folder contains images for making inferences once the classification models are trained.
+    *inference\_images* folder contains images for making inferences once the classification models are trained.
     
     _integration_codes_ folder includes five Python scripts where the detection and classification models are merged to make the recognition of the vowels of the LSE:
     
