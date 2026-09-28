@@ -41,7 +41,7 @@ It was created in May, 2023 at the University of La Rioja. It consists of RGB im
 The images are 400 x 400 in size and have a white background so that they are the same size.
 **Observation:** Here we are going to refer to the test dataset as **Original test data**.
 
-aqui va imagen 1
+![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/vowelsLSE_new_version.png)
 
 
 
@@ -60,7 +60,7 @@ The images are 400 x 400 in size. They have a white background to make them the 
 **Observation:** The `train` folder here has the same images as the dataset vowelsLSE, a total of 2423 images. This might be added to this folder because, when we are creating the `DataBlock` structure for the data provided in the `DataLoader`, we use an object of class `GrandparentSplitter`. It is necessary to partition the dataset into train and test to select the `test` data, in our case.
 **Observation:** Here we are going to refer to the test dataset as **New test data**.
 
-aqui va imagen 2
+![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/vowelsLSE_new_test_sample.png)
 
 
 The corresponding datasets are in the following links: 
