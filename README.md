@@ -65,7 +65,7 @@ The images are 400 x 400 pixels. They have a white background to make them the s
 ![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/vowelsLSE_new_test_sample.png)
 
 
-## Accuracy results for the cross-subject evaluation on *vowelsLSE_new_test*
+## Accuracy results for cross-subject evaluation on *vowelsLSE_new_test*
 
 ![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/results_accuracy_evaluation_cross_subject.png)
 
