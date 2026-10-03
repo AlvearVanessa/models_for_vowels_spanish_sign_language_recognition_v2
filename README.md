@@ -56,13 +56,19 @@ It was created in January 2024 at the University of La Rioja. It consists of RGB
   - O (18 (right hand), 20 (left hand), total images: 38)
   - U (21 (right hand), 18 (left hand), total images: 39)
   
-The images are 400 x 400 in size. They have a white background to make them the same size, and this process was made in local.
+The images are 400 x 400 pixels. They have a white background to make them the same size, and this process was done locally.
 
 **Observation:** The `train` folder here has the same images as the dataset vowelsLSE, a total of 2423 images. This might be added to this folder because, when we are creating the `DataBlock` structure for the data provided in the `DataLoader`, we use an object of class `GrandparentSplitter`. It is necessary to partition the dataset into train and test sets to select the `test` data in our case.
 
 **Observation:** Here we are going to refer to the test dataset as **New test data**.
 
 ![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/vowelsLSE_new_test_sample.png)
+
+
+# Accuracy results for the cross-subject evaluation on *vowelsLSE_new_test*
+
+![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/results_accuracy_evaluation_cross_subject.png)
+
 
 
 The corresponding datasets are in the following links: 
