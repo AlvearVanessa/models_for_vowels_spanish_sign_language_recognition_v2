@@ -20,11 +20,11 @@ The repository includes:
    The *classification_models* folder has six image classification models using the FastAI library:    
     
       - Convnext_tiny.ipynb.        It uses the ConvNeXt architecture.       
-      - ResNet18.ipynb.             It is a model that applies the ResNet18 architecture. 
-      - ResNet50.ipynb.             It is a model that applies the ResNet50 architecture. 
-      - ViT_b_16.ipynb.             It is a model that applies the ViT base 16 architecture. 
-      - ViT_b_32.ipynb.             It is a model that applies the ViT base 32 architecture. 
-      - ensemble_best_models.ipynb. In this notebook, we create an Ensemble model with the best three models applied according to the results of the metrics.
+      - ResNet18.ipynb.             It uses the ResNet18 architecture. 
+      - ResNet50.ipynb.             It uses the ResNet50 architecture. 
+      - ViT_b_16.ipynb.             It uses the ViT base 16 architecture. 
+      - ViT_b_32.ipynb.             It uses the ViT base 32 architecture. 
+      - ensemble_best_models.ipynb. In this notebook, we create an Ensemble model with the best three models (ConvNeXt, ResNet18, ResNet50) applied according to the results of the accuracy metric.
       
    *notebook_images* folder has images used in the notebooks, such as the transformations applied to the data and the samples of signs of the vowels of the LSE.
 
