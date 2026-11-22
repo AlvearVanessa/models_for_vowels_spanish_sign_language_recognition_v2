@@ -72,7 +72,7 @@ The data was split into training, validation, and testing sets comprising 70% (4
 
 ## Accuracy results for cross-subject evaluation on *vowelsLSE_new_test*
 
-Further investigation uses the vowelsLSE\_new\_test dataset (see section~\ref{sec:vowelsLSE_new_test_dataset}) to evaluate the models trained. This experiment evaluates the cross-subject generalization performance of the trained model in classifying LSE vowels on the new test dataset. The results are shown in the table below. The column Acc. NewT represents the results for the evaluation of the models on the whole dataset as a test set. The column Acc. NewT TTA represents the results by applying the TTA technique.  ConvNeXt model again achieved the highest performance, with an accuracy of 96.95 without TTA and 97.97 when the TTA technique is used.
+Further investigation uses the vowelsLSE_new_test dataset to evaluate the models trained. This experiment evaluates the cross-subject generalization performance of the trained model in classifying LSE vowels on the new test dataset. The results are shown in the table below. The column Acc. NewT represents the results for the evaluation of the models on the whole dataset as a test set. The column Acc. NewT TTA represents the results by applying the TTA technique.  ConvNeXt model again achieved the highest performance, with an accuracy of 96.95 without TTA and 97.97 when the TTA technique is used.
 
 ![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/evaluation_vowelsLSE_new_test.png)
 
