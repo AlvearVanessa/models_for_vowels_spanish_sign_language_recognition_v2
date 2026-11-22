@@ -65,17 +65,19 @@ The images are 400 x 400 pixels. They have a white background to make them the s
 ![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/vowelsLSE_new_test_sample.png)
 
 
-## Accuracy results for cross-subject evaluation on *vowelsLSE_new_version*
+## Accuracy results for evaluation on *vowelsLSE_new_version*
+The data was split into training, validation, and testing sets comprising 70% (4,255 samples), 10% (608 samples), and 20% (1,215 samples) of the data, respectively. The results are referenced in the table below. The column Acc. represents the results for the test set. The column Acc.TTA shows the results for the test set applying the TTA technique for prediction after the model is trained. Additionally, the column Train time reports the training time in seconds. The best performance was achieved by ConvNeXt and the ensemble without TTA, both with an accuracy of 100. TTA improves the performance of all the models, also obtaining an accuracy of 100  with ResNet50 and ViT_b_16. 
 
 ![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/results_accuracy_evaluation_cross_subject.png)
 
 ## Accuracy results for cross-subject evaluation on *vowelsLSE_new_test*
 
+Further investigation uses the vowelsLSE\_new\_test dataset (see section~\ref{sec:vowelsLSE_new_test_dataset}) to evaluate the models trained. This experiment evaluates the cross-subject generalization performance of the trained model in classifying LSE vowels on the new test dataset. The results are shown in the table below. The column Acc. NewT represents the results for the evaluation of the models on the whole dataset as a test set. The column Acc. NewT TTA represents the results by applying the TTA technique.  ConvNeXt model again achieved the highest performance, with an accuracy of 96.95 without TTA and 97.97 when the TTA technique is used.
+
+![me](https://github.com/AlvearVanessa/models_for_vowels_spanish_sign_language_recognition_v2/blob/main/evaluation_vowelsLSE_new_test.png)
 
 
-
-
-The corresponding datasets are in the following links: 
+The corresponding datasets are available at the following links: 
 - *vowelsLSE_new_version*          :  https://unirioja-my.sharepoint.com/:f:/g/personal/maalvear_unirioja_es/IgAkTj4A2JiVSauTByOrrXI0AfFFkFulvpb3fQlPP5QMhsM?e=7d8cj6
 - *vowelsLSE_new_test*             :  https://unirioja-my.sharepoint.com/:f:/g/personal/maalvear_unirioja_es/Eq7UEiPeQvlOppvG_Fj1NgEBrlOwAIXGocOiVSC11JM0-w?e=HP3Qdl
 
